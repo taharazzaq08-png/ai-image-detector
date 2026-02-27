@@ -1,11 +1,70 @@
----
-title: AI vs Real Image Detector
-emoji: 🔍
-colorFrom: blue
-colorTo: purple
-sdk: docker
-app_port: 7860
-pinned: false
----
+# AI Image Detector
 
-# AI vs Real Image Detector
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Mina009/ai-image-d)
+[![GitHub](https://img.shields.io/badge/GitHub-Code-black)](https://github.com/taharazzaq08-png/ai-image-detector)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+
+## 🎯 Try It Live!
+**[Click here to test the app on Hugging Face](https://huggingface.co/spaces/your-hf-username/your-space-name)** 
+No installation needed - works directly in your browser!
+
+## 📝 Overview
+An AI-powered application that detects whether images are real photographs or AI-generated.
+
+## ✨ Features
+- Upload images (JPG, PNG, etc.)
+- Real-time prediction with confidence scores
+- Interactive visualizations using Plotly
+- Clean web interface built with Streamlit
+
+## 🚀 Local Installation
+
+### Prerequisites
+- Python 3.8 or higher
+
+### Steps
+1. **Clone the repository**
+   
+   git clone https://github.com/your-github-username/your-repo-name.git
+   cd your-repo-name
+Install dependencies
+
+
+pip install -r requirements.txt
+Run the app
+
+
+streamlit run app.py
+Open http://localhost:8501 in your browser
+
+🐳 Run with Docker
+
+docker build -t ai-detector .
+docker run -p 8501:8501 ai-detector
+
+📦 Dependencies
+streamlit==1.28.1 - Web app framework
+
+pillow==10.0.1 - Image processing
+
+numpy==1.24.3 - Numerical operations
+
+plotly==5.17.0 - Interactive visualizations
+
+📁 Project Structure
+
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Python dependencies
+├── Dockerfile         # Docker configuration
+├── .gitignore         # Git ignore rules
+├── LICENSE            # MIT License
+└── README.md          # This file
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+- `Mina009`→ Your Hugging Face username
+- `ai-image-d` → Your Hugging Face space name  
+- `taharazzaq08-png`  → Your GitHub username
+- `ai-image-detector`→ Your GitHub repository name
+
