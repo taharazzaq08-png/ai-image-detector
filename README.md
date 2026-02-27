@@ -23,26 +23,26 @@ An AI-powered application that detects whether images are real photographs or AI
 ### Prerequisites
 - Python 3.8 or higher
 
+
 ### Steps
 1. **Clone the repository**
-   
+   ```bash
    git clone https://github.com/your-github-username/your-repo-name.git
    cd your-repo-name
 Install dependencies
 
-
+bash
 pip install -r requirements.txt
 Run the app
 
-
+bash
 streamlit run app.py
 Open http://localhost:8501 in your browser
 
 🐳 Run with Docker
-
+bash
 docker build -t ai-detector .
 docker run -p 8501:8501 ai-detector
-
 📦 Dependencies
 streamlit==1.28.1 - Web app framework
 
@@ -53,14 +53,13 @@ numpy==1.24.3 - Numerical operations
 plotly==5.17.0 - Interactive visualizations
 
 📁 Project Structure
-
+text
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 ├── Dockerfile         # Docker configuration
 ├── .gitignore         # Git ignore rules
 ├── LICENSE            # MIT License
 └── README.md          # This file
-
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
