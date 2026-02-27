@@ -1,0 +1,34 @@
+# Model files - DON'T upload these (they're on Hugging Face)
+*.h5
+*.pkl
+*.pt
+*.pth
+*.bin
+*.onnx
+model/
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker
+*.log
