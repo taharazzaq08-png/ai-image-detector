@@ -48,6 +48,7 @@ docker build -t ai-detector .
 docker run -p 8501:8501 ai-detector
 ```
 📦 Dependencies
+```text
 streamlit==1.28.1 - Web app framework
 
 pillow==10.0.1 - Image processing
@@ -55,6 +56,7 @@ pillow==10.0.1 - Image processing
 numpy==1.24.3 - Numerical operations
 
 plotly==5.17.0 - Interactive visualizations
+```
 
 📁 Project Structure
 ```text
