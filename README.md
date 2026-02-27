@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ## 🎯 Try It Live!
-**[Click here to test the app on Hugging Face](https://huggingface.co/spaces/your-hf-username/your-space-name)** 
+**[Click here to test the app on Hugging Face](https://huggingface.co/spaces/Mina009/ai-image-d)** 
 No installation needed - works directly in your browser!
 
 ## 📝 Overview
@@ -60,6 +60,7 @@ plotly==5.17.0 - Interactive visualizations
 ├── .gitignore         # Git ignore rules
 ├── LICENSE            # MIT License
 └── README.md          # This file
+
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
