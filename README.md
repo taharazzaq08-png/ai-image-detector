@@ -32,17 +32,17 @@ An AI-powered application that detects whether images are real photographs or AI
    
 Install dependencies
 
- ```bash
+   ```bash
 pip install -r requirements.txt
 
 Run the app
 
- ```bash
+   ```bash
 streamlit run app.py
 Open http://localhost:8501 in your browser
 
 🐳 Run with Docker
- ```bash
+   ```bash
 docker build -t ai-detector .
 docker run -p 8501:8501 ai-detector
 
