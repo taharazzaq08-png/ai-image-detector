@@ -68,8 +68,4 @@ plotly==5.17.0 - Interactive visualizations
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-- `Mina009`→ Your Hugging Face username
-- `ai-image-d` → Your Hugging Face space name  
-- `taharazzaq08-png`  → Your GitHub username
-- `ai-image-detector`→ Your GitHub repository name
 
